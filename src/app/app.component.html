@@ -1,3 +1,27 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Angular 2 google charts</h1>
+  </div>
+</div>
+
+<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active"><a routerLink="home">Home</a></li>
+        <li routerLinkActive="active"><a routerLink="line">Line chart</a></li>
+        <li routerLinkActive="active"><a routerLink="pie">Pie chart</a></li>
+        <li routerLinkActive="active"><a routerLink="area">Area chart</a></li>
+        <li routerLinkActive="active"><a routerLink="bar">Bar chart</a></li>
+        <li routerLinkActive="active"><a routerLink="combo">Combo chart</a></li>
+        <li routerLinkActive="active"><a routerLink="gauge">Gauge chart</a></li>
+        <li routerLinkActive="active"><a routerLink="scatter">Scatter chart</a></li>
+        <li routerLinkActive="active"><a routerLink="stepped-area">Stepped area chart</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
