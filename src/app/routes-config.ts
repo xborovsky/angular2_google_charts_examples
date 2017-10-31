@@ -1,3 +1,4 @@
+import { MapChartComponent } from './map-chart/map-chart.component';
 import { SteppedAreaChartComponent } from './stepped-area-chart/stepped-area-chart.component';
 import { ScatterChartComponent } from './scatter-chart/scatter-chart.component';
 import { GaugeChartComponent } from './gauge-chart/gauge-chart.component';
@@ -19,5 +20,6 @@ export const routesConfig:Routes = [
     { path : 'combo', component : ComboChartComponent },
     { path : 'gauge', component : GaugeChartComponent},
     { path : 'scatter', component : ScatterChartComponent},
-    { path : 'stepped-area', component : SteppedAreaChartComponent }
+    { path : 'stepped-area', component : SteppedAreaChartComponent },
+    { path : 'map', component : MapChartComponent }
 ];

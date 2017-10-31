@@ -1,3 +1,4 @@
+import { MapChartComponent } from './map-chart/map-chart.component';
 import { SteppedAreaChartComponent } from './stepped-area-chart/stepped-area-chart.component';
 import { ScatterChartComponent } from './scatter-chart/scatter-chart.component';
 import { GaugeChartComponent } from './gauge-chart/gauge-chart.component';
@@ -29,7 +30,8 @@ import { routesConfig } from './routes-config';
     ComboChartComponent,
     GaugeChartComponent,
     ScatterChartComponent,
-    SteppedAreaChartComponent
+    SteppedAreaChartComponent,
+    MapChartComponent
   ],
   imports: [
     BrowserModule,
